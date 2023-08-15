@@ -1,8 +1,9 @@
 # LANGUAGE-TRANSLATION-MODEL-GRADIO-
 
-NAME: ADEKUNLE OLOMOLA
+##NAME: ADEKUNLE OLOMOLA
 LANGUAGE TRANSLATOR MODEL (ENGLISH TO GERMAN)
-Introduction
+
+##Introduction
 In this report, I'll be discussing the application of HuggingFace's Transformer library and Gradio to create an interactive language translation web application.
 What is HuggingFace Transformers?
 HuggingFace Transformers is a state-of-the-art library that provides a multitude of pre-trained models for tasks in Natural Language Processing (NLP). These include tasks such as sentiment analysis, text generation, named entity recognition, and language translation, among others.
@@ -11,7 +12,8 @@ What is Gradio?
 Gradio is an open-source Python library that lets developers create easy-to-use, customizable UIs for their machine learning models. With Gradio, developers can create and share their ML model demos through an auto-generated webpage, enabling easy interaction and exploration of the model’s capabilities.
 Objective
 The primary aim of this project is to create a web-based English-to-German translation app. I'll utilize the HuggingFace Transformers library to load a pre-trained translation model and then use Gradio to create an interactive web interface for our model.
-Code Explanation
+
+##Code Explanation
 1.	Import Libraries
  
 First, I import the necessary libraries. Gradio is used to create the web interface, and the pipeline function from HuggingFace's Transformers is used to access pre-trained models and simplify the model's application.
